@@ -1,3 +1,19 @@
+
+## hosts
+put these lines in /etc/hosts.
+
+```
+127.0.0.1	broker
+127.0.0.1	connect
+127.0.0.1	control-center
+127.0.0.1	ksql-datagen
+127.0.0.1	ksqldb-cli
+127.0.0.1	ksqldb-server
+127.0.0.1	rest-proxy
+127.0.0.1	schema-registry
+127.0.0.1	zookeeper
+```
+
 ## Installation
 
 ```bash
