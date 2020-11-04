@@ -44,6 +44,7 @@ export class UserClientsOptionsFactory implements ClientsModuleOptionsFactory {
             return brokers;
           },
           clientId: "USER",
+          clientIdPostfix: "_CLIENT",
           // connectionTimeout?: number
           // enforceRequestTimeout?: boolean
           // logCreator?: logCreator

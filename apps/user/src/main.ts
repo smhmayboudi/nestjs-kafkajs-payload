@@ -38,6 +38,7 @@ async function bootstrap(): Promise<void> {
           return brokers;
         },
         clientId: "USER",
+        clientIdPostfix: "_SERVER",
         // connectionTimeout?: number
         // enforceRequestTimeout?: boolean
         // logCreator?: logCreator
